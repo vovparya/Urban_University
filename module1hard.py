@@ -55,3 +55,5 @@ students_sort = sorted(students)
 
 average_grades = dict(zip(students_sort, grades))
 print(average_grades)
+
+# Первый модуль завершен!
