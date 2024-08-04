@@ -92,7 +92,6 @@ class Pegasus(Horse, Eagle):
         print(self.sound)
 
 
-# Пример работы программы
 p1 = Pegasus()
 
 print(p1.get_pos())  # (0, 0)
