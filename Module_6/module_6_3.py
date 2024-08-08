@@ -78,8 +78,8 @@ class Eagle:
 
 class Pegasus(Horse, Eagle):
     def __init__(self):
-        Horse.__init__(self)
-        Eagle.__init__(self)
+        super().__init__()  # Вызов __init__ родительского класса (Horse)
+        super(Horse, self).__init__()  # Вызов __init__ класса Eagle, так как Horse является первым в MRO
 
     def move(self, dx, dy):
         self.run(dx)
