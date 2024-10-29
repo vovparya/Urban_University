@@ -1,0 +1,5 @@
+API_KEY = '7903597638:AAHNvoPMgApzN29HLZhOlkXxAS1wiQpjKVI'
+
+priceM = 1500
+priceL = 2000
+priceXL = 3000
