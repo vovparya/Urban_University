@@ -47,3 +47,4 @@ def read_user(user_id: int):
 @app.get("/user")
 def read_user_info(username: str, age: int):
     return f"Информация о пользователе. Имя: {username}, Возраст: {age}"
+
